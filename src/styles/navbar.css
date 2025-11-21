@@ -50,3 +50,78 @@
     font-size: 0.9rem;
   }
 }
+
+.auth-btn {
+  padding: 8px 16px;
+  border: 1px solid #00eaff;
+  border-radius: 8px;
+  color: #00eaff;
+  transition: 0.2s;
+}
+
+.auth-btn:hover {
+  background: #00eaff;
+  color: #0b0e13;
+}
+
+.profile-dropdown {
+  position: relative;
+}
+
+.profile-btn {
+  padding: 8px 16px;
+  background: rgba(0, 200, 255, 0.15);
+  border: 1px solid #00eaff;
+  border-radius: 8px;
+  color: #00eaff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.profile-btn:hover {
+  background: #00eaff;
+  color: #0b0e13;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  background: #0d1218;
+  border: 1px solid #00eaff40;
+  padding: 10px;
+  border-radius: 10px;
+  width: 160px;
+  display: none;
+  flex-direction: column;
+  box-shadow: 0 0 20px rgba(0, 200, 255, 0.1);
+}
+
+.profile-dropdown:hover .dropdown-menu {
+  display: flex;
+}
+
+.dropdown-item {
+  color: white;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.dropdown-item:hover {
+  background: #00eaff25;
+}
+
+.logout {
+  background: transparent;
+  border: none;
+  color: #ff4f4f;
+  cursor: pointer;
+  text-align: left;
+}
+
+.logout:hover {
+  background: rgba(255, 79, 79, 0.15);
+}

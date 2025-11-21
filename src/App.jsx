@@ -4,6 +4,9 @@ import Landing from "./pages/Landing";
 import Biodata from "./pages/Biodata";
 import Introduction from "./pages/Introduction";
 import Portfolio from "./pages/Portfolio";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import EditPortfolio from "./pages/EditPortofolio";
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
         <Route path="/biodata" element={<Biodata />} />
         <Route path="/introduction" element={<Introduction />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/portfolio/edit/:id" element={<EditPortfolio />} />
       </Routes>
     </Router>
   );

@@ -75,7 +75,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} <span>Rasikah</span>. Crafted with 💙 React.js</p>
+        <p>© {new Date().getFullYear()} <span>Rasikah</span>. Crafted with React.js</p>
       </div>
     </footer>
   );

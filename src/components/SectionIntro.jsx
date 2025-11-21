@@ -29,7 +29,7 @@ function SectionPKL() {
 
           <div className="pkl-footer">
             <div className="pkl-person">
-              <img src="/logo_sti.png" alt="STI logo" />
+              <img src="./src/assets/logo_sti.png" alt="STI logo" />
               <div>
                 <h4>Sarastya Technology Integrata</h4>
                 <p>Technology Integrator — Since 2014</p>
